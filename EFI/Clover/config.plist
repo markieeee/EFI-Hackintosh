@@ -37,6 +37,20 @@
 					U0FUQQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -63,6 +77,14 @@
 		<integer>5</integer>
 		<key>XMPDetection</key>
 		<integer>1</integer>
+	</dict>
+	<key>Devices</key>
+	<dict>
+		<key>Audio</key>
+		<dict>
+			<key>Inject</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -214,6 +236,80 @@
 				<key>Replace</key>
 				<data>
 				g32ID5CQkJCQkA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.12-AppleHDA/Realtek ALC...</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				ihnUEQ==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.12-AppleHDA/Realtek ALC1220A</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				ixnUEQ==
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				aBHsEA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AppleHDA/Resources/xml&gt;zml</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				eG1sLnps
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				em1sLnps
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Unsupported_Audio_Device_ID_Kaby_Lake</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				PXCh
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.12.x,10.13.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.AppleHDAController</string>
+				<key>Replace</key>
+				<data>
+				PfCi
 				</data>
 			</dict>
 		</array>
