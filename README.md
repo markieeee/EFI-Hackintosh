@@ -1,11 +1,13 @@
 # EFI Hackintosh
-This is my EFI for the following specs for my build of my Hackintosh
 
 Please feel free to use this if needed.
 
  - i7 7700k
- - GTX 1060 6GB
- - 16 GB
- - 256 SSD
- - z270E Gaming
- - MacOS High Sierra 10.13.6
+ - Strix RX 580 8GB
+ - 16+ GB
+ - z270E Gaming Motherboard
+ - Fenvi FV-T919 Wifi Card
+ - NVME 960 EVO
+ - MacOS Mojave 10.14.1
+
+ - 12/1/18
